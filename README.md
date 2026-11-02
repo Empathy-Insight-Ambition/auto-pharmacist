@@ -1,3 +1,13 @@
+> **이 저장소는 팀 프로젝트 [Jik-Kim/auto-pharmacist](https://github.com/Jik-Kim/auto-pharmacist)의 포크입니다** (4인 · 2026.09.14 – 09.30)
+>
+> **내 담당 (서동권) — D: 웹 HMI · 배치 기록 [`ros2_ws/src/gmp_hmi`](ros2_ws/src/gmp_hmi)**
+> - PC 운전 화면 + 휴대폰 원격 QA 판정, 역할별 권한 4종 · 비밀번호 암호화(PBKDF2) · 위조 요청 차단(CSRF)
+> - DB에 쓰는 유일한 기록 노드, SQLite 배치 기록 · 감사 추적(덧붙이기만)
+> - 로봇 없이 검증하는 시험 공정 노드와 통신 검증기
+> - 대표 PR: [#318](https://github.com/Jik-Kim/auto-pharmacist/pull/318) 예약 주문 전환 때 기록 노드가 DONE을 놓치던 문제 · [#266](https://github.com/Jik-Kim/auto-pharmacist/pull/266) 통신 검증 확대 · [#232](https://github.com/Jik-Kim/auto-pharmacist/pull/232) · [#229](https://github.com/Jik-Kim/auto-pharmacist/pull/229) · [#3](https://github.com/Jik-Kim/auto-pharmacist/pull/3)
+> - 작업 기록: [practice/D](practice/D)
+> - 개발 방식: Claude Code와 페어 프로그래밍으로 구현했습니다. 요구사항 · 설계 판단 · 실물 검증 · PR 리뷰와 머지는 제가 했고, 그래서 커밋 작성자 대부분이 `Claude`로 표시됩니다.
+
 # 두숟가락 — 협동로봇 조제 칭량 셀
 
 > 두산 부트캠프 협동로봇 프로젝트 · 2026.09.14 ~ 09.30 · 팀 **두숟가락**
